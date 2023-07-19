@@ -1,0 +1,78 @@
+/* media query */
+
+/* mobile devices */
+@media screen and (max-width:576px) {
+
+    .nav-container,
+    .logo,
+    .menus {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .banner-container,
+    .cards,
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        margin-top: 5px;
+
+    }
+
+    .gamer img {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cards {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    .primary-title {
+        font-size: 40px;
+        padding-top: 100px;
+        margin-top: 20px;
+    }
+
+    .description-text {
+        margin-top: 0px;
+    }
+
+    .quotes {
+        font-size: 30px;
+        margin-top: 5px;
+        color: black;
+    }
+
+    .play-games-container {
+        flex-direction: column;
+    }
+
+    .online-games-container {
+        display: block;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,406 @@
+body {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    color: black;
+    padding: 20px;
+    background-color: #cdd4d8;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.pink-word {
+    color: #F948B2;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    gap: 15px;
+    color: black;
+}
+
+.icon-color {
+    background-color: rgb(197, 194, 194);
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.banner-container {
+    background-image: url("./images/Group\ 14.png");
+    width: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    height: 100vh;
+}
+
+.primary-title {
+    font-size: 70px;
+}
+
+.banner-image {
+    width: 75%;
+}
+
+.goat-word {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 65px;
+}
+
+.pink-btn {
+    padding: 15px 30px;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: #F948B2;
+    border: none;
+}
+
+.blue-btn {
+    padding: 15px 30px;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: #4EC5F7;
+    border: none;
+}
+
+.gamer-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.gamer-image {
+    width: 100%;
+
+}
+
+.description-text {
+    color: black;
+    margin-top: -40px;
+}
+
+.quotes {
+    font-size: 30px;
+    margin-top: 10px;
+    color: black;
+}
+
+.online-games-content {
+    text-align: center;
+
+
+}
+
+.description-p {
+    font-size: 20px;
+    font-weight: 10px;
+    margin-top: -35px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    height: 400px;
+}
+
+img {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
+
+.footer-container {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: rgb(22, 21, 21);
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgb(26, 26, 25);
+}
+
+.white-word {
+    color: white;
+}
+
+.icon-text {
+    align-items: center;
+    margin-left: 40%;
+}
+
+.list-items {
+    display: inline-flex;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 5px;
+    align-items: flex-start;
+    gap: 50px;
+    list-style: none;
+}
+
+.icon-image {
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.terms-text {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: white;
+    gap: 30px;
+
+}
+
+p {
+    color: white;
+}
+
+.images-container {
+    background-color: #f3e8ef;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+    margin-top: 100px;
+
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-7 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-8 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-9 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.image-1:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+
+}
+
+.image-2:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+
+}
+
+.image-3:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+
+}
+
+.image-4:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+
+}
+
+.image-5:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+
+}
+
+.image-6:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+
+}
+
+.image-7:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+
+}
+
+.image-8:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+
+}
+
+.image-9:hover {
+    border-radius: 50px;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 3px;
+    transition: #fff 2s ease-in;
+
+}
+
+.images-container img {
+    width: 50px;
+}
+
+.play-games-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.play-games-container img {
+    width: 500px;
+}
+
+.child-image img {
+    width: 200px;
+}
+
+.child-image {
+    position: absolute;
+    bottom: 50px;
+    left: -10px;
+
+}
